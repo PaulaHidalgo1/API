@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: paulahidalgo/API completa:latest , paulahidalgo/API completa:${{github.event.pull_request.title}}
+          tags: paulahidalgo/apicompleta:latest , paulahidalgo/apicompleta:${{github.event.pull_request.title}}
